@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0B0C10" />
+    <meta
+      name="description"
+      content="Portfolio of Nicholas de Oliveira Eugênio, a Back-end Developer focused on REST APIs, Node.js, Express, and PostgreSQL."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://nicholas1front.github.io/portifolio_nicholas/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Nicholas de Oliveira Eugênio | Back-end Developer" />
+    <meta
+      property="og:description"
+      content="REST APIs, Node.js, Express, PostgreSQL, and structured solutions for real business problems."
+    />
+    <meta property="og:url" content="https://nicholas1front.github.io/portifolio_nicholas/" />
+
+    <title>Nicholas de Oliveira Eugênio | Back-end Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/components.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="site-nav container" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Nicholas de Oliveira Eugênio - home">
+          <span class="brand-mark" aria-hidden="true">N.</span>
+          <span>Nicholas</span>
+        </a>
+
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-menu">
+          <span class="sr-only">Open navigation menu</span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+
+        <div class="nav-links" id="primary-menu">
+          <a href="#projects">Projects</a>
+          <a href="#stack">Stack</a>
+          <a href="#journey">Journey</a>
+          <a class="nav-contact" href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="top">
+        <div class="hero-grid container">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Available for remote work</p>
+            <h1>Back-end systems built for real business needs.</h1>
+            <p class="hero-description">
+              I am <strong>Nicholas de Oliveira Eugênio</strong>, a Back-end Developer focused on REST APIs,
+              clean architecture, and scalable applications with Node.js, Express, and PostgreSQL.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">View projects <span aria-hidden="true">↘</span></a>
+              <a
+                class="button button-secondary"
+                href="https://github.com/Nicholas1Front"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+
+            <ul class="social-links" aria-label="Social profiles">
+              <li><a href="https://github.com/Nicholas1Front" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></li>
+              <li><a href="https://www.linkedin.com/in/nicholas-de-oliveira-eugênio-52a4ab249" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+              <li><a href="https://www.instagram.com/nicholasoeugenio" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a></li>
+            </ul>
+          </div>
+
+          <aside class="hero-panel" aria-label="Core areas of expertise">
+            <p class="panel-label">Core focus</p>
+            <div class="focus-grid">
+              <article class="focus-card focus-card-wide">
+                <span class="focus-index">01</span>
+                <h2>REST APIs</h2>
+                <p>Clear contracts and dependable services.</p>
+              </article>
+              <article class="focus-card">
+                <span class="focus-index">02</span>
+                <h2>Node.js</h2>
+              </article>
+              <article class="focus-card">
+                <span class="focus-index">03</span>
+                <h2>PostgreSQL</h2>
+              </article>
+              <article class="focus-card focus-card-wide focus-card-accent">
+                <span class="focus-index">04</span>
+                <h2>Testing, cloud &amp; deploy</h2>
+              </article>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="specialties" aria-label="Technical specialties">
+        <div class="container specialties-track">
+          <span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>JWT</span><span>Jest</span><span>Git</span>
+          <span>Render</span><span>Cloudflare</span><span>Neon Database</span><span>TypeScript</span><span>Redis</span><span>Prisma</span><span>JavaScript</span><span>Docker</span>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Selected work</p>
+              <h2 id="projects-title">Featured projects</h2>
+            </div>
+            <p>Projects currently pinned on my GitHub profile, automatically synchronized during deployment.</p>
+          </div>
+
+          <div class="featured-projects" id="featured-projects" aria-live="polite">
+            <div class="project-skeleton project-skeleton-featured" aria-hidden="true"></div>
+            <div class="project-skeleton project-skeleton-featured" aria-hidden="true"></div>
+          </div>
+          <noscript>
+            <p class="no-script-message">JavaScript is required to load featured projects. <a href="https://github.com/Nicholas1Front" target="_blank" rel="noopener noreferrer">View them on GitHub.</a></p>
+          </noscript>
+        </div>
+      </section>
+
+      <section class="section github-section" aria-labelledby="github-projects-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Open source</p>
+              <h2 id="github-projects-title">More from GitHub</h2>
+            </div>
+            <a class="text-link" href="https://github.com/Nicholas1Front?tab=repositories" target="_blank" rel="noopener noreferrer">View all repositories <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="repository-grid" id="repository-grid" aria-live="polite">
+            <div class="project-skeleton" aria-hidden="true"></div>
+            <div class="project-skeleton" aria-hidden="true"></div>
+            <div class="project-skeleton" aria-hidden="true"></div>
+          </div>
+          <noscript>
+            <p class="no-script-message">JavaScript is required to load repositories. <a href="https://github.com/Nicholas1Front?tab=repositories" target="_blank" rel="noopener noreferrer">View all repositories on GitHub.</a></p>
+          </noscript>
+        </div>
+      </section>
+
+      <section class="section stack-section" id="stack" aria-labelledby="stack-title">
+        <div class="container stack-layout">
+          <div class="stack-intro">
+            <p class="eyebrow">Technical foundation</p>
+            <h2 id="stack-title">A practical stack for structured systems.</h2>
+            <p>I use a focused set of tools to build APIs, model data, validate behavior, and ship maintainable applications.</p>
+          </div>
+
+          <div class="stack-groups">
+            <article><h3>Back-end</h3><p>Node.js · Express.js · REST APIs · JWT · Zod · Bcrypt</p></article>
+            <article><h3>Data &amp; cache</h3><p>PostgreSQL · SQL · Knex.js · Prisma ORM · Redis · Neon Database</p></article>
+            <article><h3>Quality</h3><p>Jest · Supertest · SOLID · Clean Code · Layered Architecture</p></article>
+            <article><h3>Delivery</h3><p>Git · GitHub · Docker · Render · Vercel · Cloudflare</p></article>
+            <article><h3>Front-end</h3><p>React · Vite · HTML · CSS · SEO · Responsiveness · UX/UI</p></article>
+            <article><h3>Languages</h3><p>JavaScript · TypeScript</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process-section" aria-labelledby="process-title">
+        <div class="container">
+          <div class="section-heading section-heading-compact">
+            <div><p class="eyebrow">Working approach</p><h2 id="process-title">How I build</h2></div>
+          </div>
+          <ol class="process-list">
+            <li><span>01</span><h3>Understand the problem</h3><p>Start with the business need and the expected outcome.</p></li>
+            <li><span>02</span><h3>Structure the solution</h3><p>Model data and define clear application responsibilities.</p></li>
+            <li><span>03</span><h3>Build and test</h3><p>Implement maintainable features and validate behavior.</p></li>
+            <li><span>04</span><h3>Deploy and evolve</h3><p>Publish reliably and improve through iteration.</p></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section journey-section" id="journey" aria-labelledby="journey-title">
+        <div class="container journey-layout">
+          <div>
+            <p class="eyebrow">Professional journey</p>
+            <h2 id="journey-title">Learning by building and solving.</h2>
+          </div>
+          <ol class="timeline">
+            <li><time>2018 — Present</time><div><h3>Administrative Assistant</h3><p>EMEG - Empresa de Mecânica Pesada. Administrative, financial, and operational processes.</p></div></li>
+            <li><time>2023</time><div><h3>Web Design Express</h3><p>Danki Code.</p></div></li>
+            <li><time>2024</time><div><h3>Back-end studies with Node</h3><p>Beginning of the back-end development journey.</p></div></li>
+            <li><time>2025</time><div><h3>Analysis and Systems Development</h3><p>FACAM - completed in 2025.</p></div></li>
+            <li><time>2025</time><div><h3>Front-end Training</h3><p>Hora de Codar.</p></div></li>
+            <li><time>2026</time><div><h3>Cash Flow and Financial Management</h3><p>SEBRAE.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-card">
+          <div>
+            <p class="eyebrow">Get in touch</p>
+            <h2 id="contact-title">Let's build something useful?</h2>
+            <p>I am available for remote work and conversations about back-end development.</p>
+          </div>
+          <a class="button button-primary" href="mailto:nicholasdeoliveiraeugenio@gmail.com">Send an email <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="current-year">2026</span> Nicholas de Oliveira Eugênio</p>
+        <div><a href="https://github.com/Nicholas1Front" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/nicholas-de-oliveira-eugênio-52a4ab249" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://www.instagram.com/nicholasoeugenio" target="_blank" rel="noopener noreferrer">Instagram</a></div>
+      </div>
+    </footer>
+
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>

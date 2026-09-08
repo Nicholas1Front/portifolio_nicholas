@@ -1,0 +1,32 @@
+@media (min-width: 640px) {
+  .container { width: min(calc(100% - 4rem), var(--container-width)); }
+  .hero { padding-top: 7rem; }
+  .featured-projects, .repository-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stack-groups { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .process-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .contact-card { flex-direction: row; align-items: end; justify-content: space-between; padding: 3rem; }
+}
+
+@media (min-width: 900px) {
+  .section { padding: 7rem 0; }
+  .hero-grid { grid-template-columns: minmax(0, 1.25fr) minmax(22rem, .75fr); align-items: center; }
+  .hero-panel { padding: 1.5rem; }
+  .section-heading { flex-direction: row; align-items: end; }
+  .section-heading > p { text-align: right; }
+  .featured-projects { grid-template-columns: 1fr; }
+  .repository-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .stack-layout { grid-template-columns: minmax(0, .75fr) minmax(0, 1fr); align-items: start; }
+  .process-list { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .journey-layout { grid-template-columns: minmax(0, .75fr) minmax(0, 1fr); }
+}
+
+@media (max-width: 699px) {
+  .menu-button { display: grid; width: 2.75rem; height: 2.75rem; place-content: center; gap: .35rem; border: 1px solid var(--color-border); border-radius: .45rem; background: var(--color-surface); cursor: pointer; }
+  .menu-button span:not(.sr-only) { display: block; width: 1.1rem; height: 1px; background: var(--color-text); transition: transform .2s ease; }
+  .menu-button[aria-expanded="true"] span:nth-of-type(2) { transform: translateY(3px) rotate(45deg); }
+  .menu-button[aria-expanded="true"] span:nth-of-type(3) { transform: translateY(-3px) rotate(-45deg); }
+  .nav-links { position: absolute; top: calc(100% + 1px); right: 0; left: 0; display: none; flex-direction: column; align-items: stretch; gap: 0; padding: 1rem 1.25rem; border-bottom: 1px solid var(--color-border); background: var(--color-background); }
+  .nav-links.is-open { display: flex; }
+  .nav-links a { padding: .8rem 0; }
+  .nav-contact { margin-top: .5rem; padding: .8rem; text-align: center; }
+}

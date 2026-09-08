@@ -1,0 +1,16 @@
+:root {
+  --color-background: #0b0c10;
+  --color-surface: #141821;
+  --color-surface-strong: #1a202a;
+  --color-border: #27313c;
+  --color-text: #f3f7f7;
+  --color-muted: #a9b5c2;
+  --color-accent: #66fcf1;
+  --color-accent-hover: #45cfc7;
+  --color-accent-soft: rgb(102 252 241 / 12%);
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --container-width: 1120px;
+  --shadow-card: 0 16px 50px rgb(0 0 0 / 18%);
+  --radius-card: 16px;
+}
