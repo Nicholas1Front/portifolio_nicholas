@@ -2,7 +2,7 @@
 
 Personal portfolio website for **Nicholas de Oliveira Eugênio**, built to present featured projects, technical stack, professional journey, and contact links.
 
-> Status: In development
+> Status: Finished ✅
 
 ## Goals
 
@@ -40,7 +40,6 @@ Personal portfolio website for **Nicholas de Oliveira Eugênio**, built to prese
 portifolio_nicholas/
 ├── src/
 │   ├── assets/
-│   │   ├── icons/
 │   │   └── images/
 │   ├── data/
 │   │   └── pinned-projects.json
@@ -56,7 +55,5 @@ portifolio_nicholas/
 ├── .github/
 │   └── workflows/
 │       └── sync-pinned-projects.yml
-├── robots.txt
-├── sitemap.xml
 └── README.md
 ```
