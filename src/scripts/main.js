@@ -159,10 +159,10 @@ const createProjectCard = (repository, index, featured = false) => {
   content.append(meta, title, description, createTechnologyTags(repository));
 
   const actions = createElement("div", "project-actions");
-  actions.append(createExternalLink("View on GitHub ↗", repository.url));
+  actions.append(createExternalLink("View on GitHub", repository.url));
 
   if (repository.homepageUrl) {
-    actions.append(createExternalLink("Live demo ↗", repository.homepageUrl, "project-demo-link"));
+    actions.append(createExternalLink("Live demo", repository.homepageUrl, "project-demo-link"));
   }
 
   content.append(actions);
